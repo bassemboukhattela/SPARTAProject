@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="gui.InscOrgFXMLController">
+   <children>
+      <Label layoutX="37.0" layoutY="37.0" text="Nom :" />
+      <Label layoutX="37.0" layoutY="67.0" text="Prenom :" />
+      <Label layoutX="37.0" layoutY="106.0" />
+      <Label layoutX="37.0" layoutY="148.0" text="Cin :" />
+      <Label layoutX="37.0" layoutY="192.0" text="Mail :" />
+      <Label layoutX="37.0" layoutY="227.0" />
+      <Label layoutX="300.0" layoutY="37.0" text="Username :" />
+      <Label layoutX="300.0" layoutY="67.0" text="Password :" />
+      <Label layoutX="300.0" layoutY="106.0" />
+      <Label layoutX="300.0" layoutY="148.0" text="Secteur d'activite :" />
+      <Label layoutX="37.0" layoutY="106.0" text="Tel :" />
+      <Label layoutX="300.0" layoutY="184.0" text="Numero carte profesionelle :" />
+      <Label layoutX="302.0" layoutY="106.0" text="Raison social :" />
+      <Label layoutX="34.0" layoutY="232.0" prefHeight="17.0" prefWidth="51.0" text="Site web :" />
+      <TextField fx:id="tfnomorg" layoutX="98.0" layoutY="33.0" />
+      <TextField fx:id="tfprnomorg" layoutX="98.0" layoutY="63.0" />
+      <TextField fx:id="tftelorg" layoutX="98.0" layoutY="102.0" />
+      <TextField fx:id="tfcinorg" layoutX="98.0" layoutY="144.0" />
+      <TextField fx:id="tfmailorg" layoutX="98.0" layoutY="188.0" />
+      <TextField fx:id="tfraisonsocial" layoutX="419.0" layoutY="102.0" />
+      <TextField fx:id="tfsecteuractivie" layoutX="419.0" layoutY="144.0" />
+      <TextField fx:id="tfnumcartpro" layoutX="463.0" layoutY="180.0" prefHeight="25.0" prefWidth="106.0" />
+      <TextField fx:id="tfsiteweb" layoutX="98.0" layoutY="228.0" />
+      <PasswordField fx:id="tfusernameorg" layoutX="419.0" layoutY="33.0" />
+      <PasswordField fx:id="tfpasswordorg" layoutX="419.0" layoutY="63.0" />
+      <Button fx:id="savorg" layoutX="221.0" layoutY="316.0" mnemonicParsing="false" onAction="#addOrganisateur" text="save" />
+      <Button fx:id="cacelorg" layoutX="274.0" layoutY="316.0" mnemonicParsing="false" onAction="#cancelorg" text="Cancel" />
+   </children>
+</AnchorPane>
